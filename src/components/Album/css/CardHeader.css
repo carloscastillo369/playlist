@@ -26,3 +26,8 @@
     color: var(--white);
     background: var(--red-principal);
 }
+
+.btn-show:hover {
+    cursor: pointer;
+    background: var(--dark-red-opacity);
+}
