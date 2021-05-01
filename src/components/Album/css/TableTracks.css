@@ -1,0 +1,26 @@
+.table-tracks{
+    width: 100%;
+    overflow-y: scroll;
+    max-height: 800px;
+    padding: 0px 40px;
+}
+
+.row {
+    display: flex;
+    border-bottom: 1px solid var(--soft-gray);
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.index {
+    width: 70px;
+}
+
+.title {
+    width: calc(100% - 140px);
+}
+
+.duration {
+    width: 70px;
+}

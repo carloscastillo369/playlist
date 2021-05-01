@@ -1,0 +1,15 @@
+.list-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title-resultado {
+    margin-bottom: 20px;
+}
+
+@media (min-width:1180px) {
+    .list-items {
+        justify-content: space-between;
+    }   
+}

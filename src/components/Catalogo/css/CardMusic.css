@@ -1,0 +1,17 @@
+.card-music {
+    width: 160px;
+    height: 206px;
+    margin: 0px 10px;
+}   
+
+.card-music__image {
+    width: 160px;
+    height: 160px;
+}
+
+
+@media (min-width:1180px) {
+    .card-music {
+        margin: 0px;
+    }   
+}
